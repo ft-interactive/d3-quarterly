@@ -1,5 +1,5 @@
 # d3-quarterly
-## 2017 Ændrew Rininsland
+## 2017 Ændrew Rininsland
 ### Based off block by [Chris Vaiu](http://bl.ocks.org/biovisualize/5430237)
 
 `d3-quarterly` will parse a "quarter" string (e.g., "Q3 2017") and return a date object,
