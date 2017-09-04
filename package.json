@@ -1,0 +1,12 @@
+{
+  "name": "d3-quarterly",
+  "version": "1.0.0",
+  "description": "Parse quarterly date strings to timestamp ranges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
