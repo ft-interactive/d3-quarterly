@@ -9,7 +9,8 @@ indicating either the lower or upper bounds of a quarter.
 
 1. `$ npm install d3-quarterly`
 2. `import quarterly from 'd3-quarterly'`
-3. ```js
+3. 
+```js
 test('General use', t => {
   const lower = quarterly('Q1 2017', false);
   const upper = quarterly('Q1 2017', true);
@@ -18,11 +19,11 @@ test('General use', t => {
 });
 ```
 
-### API
+### API
 
 1. `quarterly(quarterString: string, returnBoundsEnd: boolean = false)`
-    * quarterString
+    * `quarterString: string`
       - A string in the format 'QN YY(YY)?' where "N" is an integer 1-4 (incl.) and "YY(YY)?" is either a 2- or 4-integer year value
 
-    * returnBoundsEnd
+    * `returnBoundsEnd: boolean`
       - By default returns the lower bounds (i.e., the start) of a quarter. Pass `true` to return the upper bounds.
